@@ -1,0 +1,18 @@
+@value tokens: "./tokens.module.css";
+@value spacer1, spacer2, fontSizeL, fontSizeXL, primaryColor, secondaryColor from tokens;
+
+.title1 {
+  color: black;
+  font-size: fontSizeXL;
+  font-weight: bolder;
+  padding-left: spacer1;
+  padding-top: spacer1;
+}
+
+.title2 {
+  font-size: fontSizeL;
+  color: primaryColor;
+  font-weight: bold;
+  padding-top: spacer2;
+  padding-bottom: spacer1;
+}

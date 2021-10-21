@@ -1,0 +1,40 @@
+@value tokens: "./style/tokens.module.css";
+@value spacer1, spacer2, fontSizeL, fontSizeXL, primaryColor, secondaryColor from tokens;
+
+.app {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.content {
+    padding: 1rem;
+    background-color: secondaryColor;
+    display: grid;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.nav {
+    padding: 1rem;
+}
+
+.backgroundcolor {
+    background-color: secondaryColor;
+    min-height: 100vh;
+}
+
+
+.navbutton {
+    width: 100%;
+    padding: 1rem 0;
+    background-color: primaryColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+.textdeco {
+    text-decoration: none;
+}

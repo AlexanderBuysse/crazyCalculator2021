@@ -1,0 +1,13 @@
+@value tokens: "./tokens.module.css";
+@value secondaryColor from tokens;
+
+.control {
+  border-radius: 0.5rem;
+  border: 0.05rem solid secondaryColor;
+  color: secondaryColor;
+}
+
+.control:hover {
+  background-color: secondaryColor;
+  color: white;
+}

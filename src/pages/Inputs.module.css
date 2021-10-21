@@ -1,0 +1,51 @@
+@value tokens: "../style/tokens.module.css";
+@value spacer1, spacer2 primaryColor from tokens;
+
+.food {
+  grid-column: span 2;
+}
+
+.product {
+  grid-column: span 3;
+}
+
+
+.labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem 0;
+}
+
+.margin {
+  margin-bottom: 2rem;
+}
+
+.article2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem 0;
+}
+
+.titleinputs {
+  font-weight: bold;
+  margin: 2rem 0 .5rem;
+  text-align: center;
+}
+
+.labels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
